@@ -38,15 +38,6 @@
         <span class="btn-tooltip">Mode Malam</span>
       </button>
 
-      <!-- Music Player Trigger / Status -->
-      <button id="music-toggle-btn" class="nav-btn music-btn" title="Putar / Jeda Musik" aria-label="Play/Pause Music">
-        <div class="sound-bars">
-          <span></span><span></span><span></span><span></span>
-        </div>
-        <i class="fa-solid fa-music"></i>
-        <span class="btn-text">Musik</span>
-      </button>
-
       <!-- Set Anniversary Date Modal Trigger -->
       <button id="btn-open-date-setting" class="nav-btn" title="Sesuaikan Tanggal Jadian" aria-label="Set Anniversary Date">
         <i class="fa-solid fa-calendar-heart"></i>
@@ -54,33 +45,6 @@
       </button>
     </div>
   </header>
-
-  <!-- Floating Music Widget (Bottom Right) -->
-  <div class="floating-music-widget" id="music-widget">
-    <div class="vinyl-record" id="vinyl-disc">
-      <img src="assets/images/ragunan_selfie.jpg" alt="Song Cover" class="vinyl-cover">
-      <div class="vinyl-center"></div>
-    </div>
-    <div class="music-info">
-      <div class="music-title">Warm Romance Melodies</div>
-      <div class="music-artist">Lagu Spesial Kenangan Kita 🎵</div>
-      <div class="music-progress-bar">
-        <div class="music-progress" id="music-progress"></div>
-      </div>
-    </div>
-    <div class="music-controls">
-      <button id="widget-play-btn" class="play-btn" aria-label="Play Music">
-        <i class="fa-solid fa-play"></i>
-      </button>
-      <button id="widget-volume-btn" class="volume-btn" aria-label="Mute Volume">
-        <i class="fa-solid fa-volume-high"></i>
-      </button>
-    </div>
-    <audio id="bg-audio" loop preload="metadata">
-      <source src="assets/audio/romantic-piano.mp3" type="audio/mpeg">
-      Browser kamu tidak mendukung pemutar audio.
-    </audio>
-  </div>
 
   <main>
     <!-- HERO SECTION -->
@@ -90,14 +54,14 @@
         <!-- Romantic Badge -->
         <div class="badge-pill animate-fade-down">
           <i class="fa-solid fa-sparkles"></i>
-          <span>Celebrating Our 10th Month of Togetherness</span>
+          <span>Celebrating Our 10th Month of Pure Love</span>
           <i class="fa-solid fa-sparkles"></i>
         </div>
 
         <!-- Couple Picture Profile Glow -->
         <div class="hero-couple-avatar animate-zoom-in">
           <div class="avatar-ring">
-            <img src="assets/images/ragunan_selfie.jpg" alt="Foto Berdua Romantis" class="hero-avatar-img">
+            <img src="assets/images/sweet_kiss.jpg" alt="Foto Berdua Paling Manis" class="hero-avatar-img">
           </div>
           <div class="avatar-floating-badge">
             <span>10 Bulan Bersamamu</span>
@@ -111,7 +75,7 @@
         </h1>
         
         <p class="hero-subtitle animate-fade-up delay-1">
-          Sepuluh bulan penuh tawa, cerita manis, petualangan seru, dan rasa syukur karena takdir mempertemukan aku dengan kamu.
+          Sepuluh bulan penuh cerita, tawa tanpa henti, petualangan seru, dan rasa syukur tiada tara karena semesta mempertemukan aku denganmu.
         </p>
 
         <!-- Live Counter Section -->
@@ -184,14 +148,14 @@
           </span>
           <h2 class="section-title">Garis Waktu Perjalanan Cinta</h2>
           <p class="section-desc">
-            Dari rasa canggung di awal pertemuan, obrolan larut malam, kencan manis di bioskop, sampai petualangan seru yang bikin makin sayang.
+            Dari rasa canggung di awal pertemuan, kencan pertama keliling museum seni, motoran berdua, sampai petualangan seru yang bikin makin sayang.
           </p>
         </div>
 
         <div class="timeline-container">
           <div class="timeline-line"></div>
 
-          <!-- Timeline Item 1 -->
+          <!-- Timeline Item 1: Awal Cerita -->
           <div class="timeline-card left reveal-on-scroll">
             <div class="timeline-dot">
               <i class="fa-solid fa-sparkles"></i>
@@ -204,7 +168,7 @@
               </div>
               <h3 class="timeline-item-title">Pertama Kali Bertemu & Nyambung</h3>
               <p class="timeline-item-desc">
-                Masih ingat senyum malu-malumu saat awal ketemu? Dari sekadar obrolan santai, ternyata ada kenyamanan luar biasa yang gak pernah aku rasain sebelumnya. Hari itu jadi awal kisah paling indah di hidupku.
+                Masih ingat senyum malu-malumu saat awal ketemu? Dari sekadar obrolan santai, ternyata ada kenyamanan luar biasa yang gak pernah aku rasain sebelumnya. Hari itu jadi awal mula kisah paling indah di hidupku.
               </p>
               <div class="timeline-meta">
                 <span><i class="fa-regular fa-clock"></i> Langkah Pertama</span>
@@ -213,30 +177,54 @@
             </div>
           </div>
 
-          <!-- Timeline Item 2 -->
+          <!-- Timeline Item 2: FIRST DATE DI MUSEUM SENI (UPDATED AS REQUESTED) -->
           <div class="timeline-card right reveal-on-scroll">
             <div class="timeline-dot">
-              <i class="fa-solid fa-film"></i>
+              <i class="fa-solid fa-palette"></i>
             </div>
-            <div class="timeline-content glass-card">
-              <div class="timeline-badge">Kencan Pertama</div>
-              <div class="timeline-img-box">
-                <img src="assets/images/cinema_bow.jpg" alt="Kencan Nonton Bioskop" loading="lazy">
-                <span class="img-caption-tag"><i class="fa-solid fa-ticket"></i> Movie Date</span>
+            <div class="timeline-content glass-card first-date-highlight">
+              <div class="timeline-badge special-first-date-badge">
+                <i class="fa-solid fa-star"></i> Kencan Pertama (First Date)
               </div>
-              <h3 class="timeline-item-title">Nonton Bioskop & Berbagi Popcorn</h3>
+              <div class="timeline-img-box">
+                <img src="assets/images/museum_first_date.jpg" alt="Kencan Pertama di Museum Seni" loading="lazy">
+                <span class="img-caption-tag"><i class="fa-solid fa-landmark"></i> Museum Seni & Galeri</span>
+              </div>
+              <h3 class="timeline-item-title">Kencan Pertama: Menyusuri Museum Seni 🎨</h3>
               <p class="timeline-item-desc">
-                Kencan pertama nonton bareng di bioskop. Duduk bersebelahan, tangan saling mendekat saat ambil popcorn, dan tawa lucumu yang bikin filmnya terasa sepuluh kali lebih seru. Pita pink di hijabmu hari itu manis banget!
+                Kencan pertama kita yang penuh seni dan makna mendalam. Berjalan beriringan menyusuri lorong penuh lukisan indah, saling berbagi sudut pandang, dan curi-curi pandang. Di antara semua mahakarya yang dipajang di galeri hari itu, pemandangan paling memukau tetap kamu.
               </p>
               <div class="timeline-meta">
-                <span><i class="fa-solid fa-video"></i> Bioskop Kesayangan</span>
-                <span class="mood-pill">🍿 Heart Flutter</span>
+                <span><i class="fa-solid fa-paintbrush"></i> Galeri Seni</span>
+                <span class="mood-pill">🖼️ Unforgettable First Date</span>
               </div>
             </div>
           </div>
 
-          <!-- Timeline Item 3 -->
+          <!-- Timeline Item 3: Photobooth & Sweet Dates -->
           <div class="timeline-card left reveal-on-scroll">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-camera"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-badge">Momen Menggemaskan</div>
+              <div class="timeline-img-box">
+                <img src="assets/images/photobooth_mymelody.jpg" alt="Photobooth My Melody Lucu" loading="lazy">
+                <span class="img-caption-tag"><i class="fa-solid fa-wand-magic"></i> Selfie Time Photobooth</span>
+              </div>
+              <h3 class="timeline-item-title">Pose Lucu Bando & Kacamata Unik</h3>
+              <p class="timeline-item-desc">
+                Masuk photobooth bareng dan gak bisa berhenti ketawa! Pakai bando My Melody dan kacamata merah ikonik, ekspresi manismu di setiap frame foto strip ini selalu jadi favorit yang bikin aku senyum tiap kali ngeliatnya.
+              </p>
+              <div class="timeline-meta">
+                <span><i class="fa-solid fa-icons"></i> Photobooth Strip</span>
+                <span class="mood-pill">✨ Gemas Maksimal</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4: Motoran Berdua -->
+          <div class="timeline-card right reveal-on-scroll">
             <div class="timeline-dot">
               <i class="fa-solid fa-motorcycle"></i>
             </div>
@@ -246,51 +234,51 @@
                 <img src="assets/images/motorcycle_ride.jpg" alt="Motoran Berdua" loading="lazy">
                 <span class="img-caption-tag"><i class="fa-solid fa-wind"></i> Night Ride Bareng</span>
               </div>
-              <h3 class="timeline-item-title">Motoran Berdua Menembus Kota</h3>
+              <h3 class="timeline-item-title">Motoran Berdua Menembus Dingin Kota</h3>
               <p class="timeline-item-desc">
                 Walau macet dan berdebu, setiap boncengan motoran bareng kamu selalu terasa istimewa. Pelukan hangatmu dari belakang dan obrolan kita sepanjang jalan bikin jalanan kota jadi tempat paling tenang.
               </p>
               <div class="timeline-meta">
-                <span><i class="fa-solid fa-road"></i> Jakarta Night Ride</span>
+                <span><i class="fa-solid fa-road"></i> City Night Ride</span>
                 <span class="mood-pill">🛵 Cozy Moments</span>
               </div>
             </div>
           </div>
 
-          <!-- Timeline Item 4 -->
-          <div class="timeline-card right reveal-on-scroll">
+          <!-- Timeline Item 5: Ragunan Zoo -->
+          <div class="timeline-card left reveal-on-scroll">
             <div class="timeline-dot">
-              <i class="fa-solid fa-camera-retro"></i>
+              <i class="fa-solid fa-leaf"></i>
             </div>
             <div class="timeline-content glass-card">
-              <div class="timeline-badge">Momen Spesial</div>
+              <div class="timeline-badge">Outdoor Adventure</div>
               <div class="timeline-img-box">
                 <img src="assets/images/ragunan_selfie.jpg" alt="Kencan ke Ragunan Zoo" loading="lazy">
-                <span class="img-caption-tag"><i class="fa-solid fa-leaf"></i> Ragunan Zoo Trip</span>
+                <span class="img-caption-tag"><i class="fa-solid fa-tree"></i> Ragunan Zoo Trip</span>
               </div>
-              <h3 class="timeline-item-title">Kencan Seru & Nostalgia di Ragunan</h3>
+              <h3 class="timeline-item-title">Kencan Seru & Nostalgia di Ragunan Zoo</h3>
               <p class="timeline-item-desc">
                 Hari penuh langkah kaki, tawa renyah, lihat jerapah tinggi, jajan kentang spiral lezat, dan istirahat santai di dekat air mancur. Momen sederhana tapi kebahagiaannya menempel lekat di hati.
               </p>
               <div class="timeline-meta">
-                <span><i class="fa-solid fa-tree"></i> Taman Margasatwa</span>
-                <span class="mood-pill">🦒 Best Date Ever</span>
+                <span><i class="fa-solid fa-paw"></i> Taman Margasatwa</span>
+                <span class="mood-pill">🦒 Best Zoo Date</span>
               </div>
             </div>
           </div>
 
-          <!-- Timeline Item 5 -->
-          <div class="timeline-card left reveal-on-scroll">
+          <!-- Timeline Item 6: 10 Bulan Bersama -->
+          <div class="timeline-card right reveal-on-scroll">
             <div class="timeline-dot">
               <i class="fa-solid fa-award"></i>
             </div>
             <div class="timeline-content glass-card">
               <div class="timeline-badge highlight-badge">10 Bulan Bersama</div>
               <div class="timeline-img-box">
-                <img src="assets/images/cafe_date.jpg" alt="Merayakan 10 Bulan" loading="lazy">
+                <img src="assets/images/sweet_kiss.jpg" alt="Merayakan 10 Bulan" loading="lazy">
                 <span class="img-caption-tag"><i class="fa-solid fa-gem"></i> Today & Forever</span>
               </div>
-              <h3 class="timeline-item-title">10 Bulan Penuh Kasih & Masa Depan Cerah</h3>
+              <h3 class="timeline-item-title">10 Bulan Penuh Kasih & Menuju Selamanya</h3>
               <p class="timeline-item-desc">
                 Sepuluh bulan kita saling melengkapi, saling memaafkan, dan saling mendukung mimpi masing-masing. Terima kasih sudah setia, sabar, dan selalu jadi rumah ternyaman untuk pulang.
               </p>
@@ -437,7 +425,7 @@
       </div>
     </section>
 
-    <!-- GALERI FOTO INTERAKTIF -->
+    <!-- GALERI FOTO INTERAKTIF DENGAN SEMUA FOTO -->
     <section class="section gallery-section" id="gallery">
       <div class="section-container">
         
@@ -453,16 +441,354 @@
 
         <!-- Filter Kategori Foto -->
         <div class="gallery-filter-tabs">
-          <button class="filter-btn active" data-filter="all">Semua Foto (15)</button>
-          <button class="filter-btn" data-filter="ragunan">Ragunan Zoo</button>
-          <button class="filter-btn" data-filter="cinema">Bioskop & Date</button>
-          <button class="filter-btn" data-filter="hangout">Jalan & Hangout</button>
+          <button class="filter-btn active" data-filter="all">Semua Foto (27)</button>
+          <button class="filter-btn" data-filter="museum">First Date & Museum 🎨</button>
+          <button class="filter-btn" data-filter="ragunan">Ragunan Zoo 🦒</button>
+          <button class="filter-btn" data-filter="cinema">Bioskop & Date 🍿</button>
+          <button class="filter-btn" data-filter="sweet">Photobooth & Manis 💕</button>
+          <button class="filter-btn" data-filter="hangout">Jalan & Hangout 🛵</button>
         </div>
 
         <!-- Gallery Grid -->
         <div class="gallery-grid" id="gallery-grid">
           
-          <!-- Photo Card 1: Ragunan Selfie -->
+          <!-- 1. FIRST DATE: Museum Seni Tiga Panel -->
+          <div class="flip-card gallery-item" data-category="museum">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/museum_first_date.jpg" alt="First Date Museum Seni" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-star"></i> Kencan Pertama</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-palette"></i></div>
+                  <h4>First Date di Galeri</h4>
+                  <p>"Momen kencan pertama kita mengagumi lukisan indah. Di antara semua karya seni, kamu yang paling memikat."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> First Date • Museum Seni</span>
+                  <button class="btn-view-large" data-img="assets/images/museum_first_date.jpg" data-caption="Kencan pertama kita yang penuh seni dan ketenangan di galeri lukisan.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. FIRST DATE: Galeri Ruang Hijau (IMG_3616) -->
+          <div class="flip-card gallery-item" data-category="museum">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/img_3616.jpg" alt="Museum Galeri Hijau" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-landmark"></i> Galeri Lukisan</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-image"></i></div>
+                  <h4>Lorong Seni & Sejarah</h4>
+                  <p>"Dinding hijau galeri dengan jajaran lukisan berbingkai emas. Saksi bisu obrolan hangat kencan pertama kita."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> First Date Exhibition</span>
+                  <button class="btn-view-large" data-img="assets/images/img_3616.jpg" data-caption="Sudut galeri seni yang kita kunjungi saat kencan pertama.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. FIRST DATE: Sudut Lukisan Klasik (IMG_3618) -->
+          <div class="flip-card gallery-item" data-category="museum">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/img_3618.jpg" alt="Koleksi Lukisan Museum" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-paint-roller"></i> Sudut Museum</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-brush"></i></div>
+                  <h4>Mahakarya & Cerita</h4>
+                  <p>"Menikmati setiap goresan kanvas sambil mendengarkan komentarmu yang cerdas dan menggemaskan."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Art Exhibition Date</span>
+                  <button class="btn-view-large" data-img="assets/images/img_3618.jpg" data-caption="Koleksi lukisan bersejarah yang kita nikmati berdua saat kencan pertama.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. SWEET: Ciuman Pipi Manis (Sweet Kiss) -->
+          <div class="flip-card gallery-item" data-category="sweet">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/sweet_kiss.jpg" alt="Ciuman Pipi Manis" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-heart"></i> Momen Paling Manis</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-kiss-wink-heart"></i></div>
+                  <h4>Kecupan Penuh Cinta</h4>
+                  <p>"Kecupan hangat di pipi yang selalu bikin hatiku meleleh. Gak ada tempat yang lebih nyaman selain di dekatmu."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Romantic Night</span>
+                  <button class="btn-view-large" data-img="assets/images/sweet_kiss.jpg" data-caption="Momen manis pelukan dan kecupan hangat di pipi.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. SWEET: Photobooth My Melody Strip -->
+          <div class="flip-card gallery-item" data-category="sweet">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/photobooth_mymelody.jpg" alt="Photobooth 4 Foto Strip" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-sparkles"></i> 4-Cut Photobooth</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                  <h4>My Melody Strip</h4>
+                  <p>"Empat pose seru dengan bando kuning dan kacamata merah. Hasil foto yang langsung aku simpan di dompet!"</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Selfie Time Photobooth</span>
+                  <button class="btn-view-large" data-img="assets/images/photobooth_mymelody.jpg" data-caption="Photobooth strip My Melody dengan ekspresi lucu dan menggemaskan.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. SWEET: Buket Bunga Mawar & Mural -->
+          <div class="flip-card gallery-item" data-category="sweet">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/mural_flowers.jpg" alt="Bunga Mawar & Mural" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-fan"></i> Bunga & Mural</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-flower"></i></div>
+                  <h4>Bunga Cantik Untukmu</h4>
+                  <p>"Buket mawar merah dan latar mural artistik penuh warna. Tapi bagi aku, kamu tetap yang paling merekah indah."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Special Flower Day</span>
+                  <button class="btn-view-large" data-img="assets/images/mural_flowers.jpg" data-caption="Buket bunga mawar manis dengan latar belakang mural warna-warni.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. CINEMA: Bioskop Premiere Kursi Kulit (cinema_premiere.jpg) -->
+          <div class="flip-card gallery-item" data-category="cinema">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/cinema_premiere.jpg" alt="Studio Bioskop Premiere" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-couch"></i> Premiere Lounge</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-film"></i></div>
+                  <h4>Kursi Recliner Nyaman</h4>
+                  <p>"Nonton film di kursi kulit empuk berdua. Ruangannya nyaman, adem, dan seru banget nonton bareng kamu."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Cinema Premiere</span>
+                  <button class="btn-view-large" data-img="assets/images/cinema_premiere.jpg" data-caption="Suasana bioskop premiere yang mewah dan nyaman saat kencan nonton.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. CINEMA: Selfie di Kursi Recliner (cinema_recliner_selfie.jpg) -->
+          <div class="flip-card gallery-item" data-category="cinema">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/cinema_recliner_selfie.jpg" alt="Selfie di Kursi Recliner" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-video"></i> Movie Selfie</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-camera"></i></div>
+                  <h4>Pose Hormat Lucu</h4>
+                  <p>"Pose tangan hormat di kening sambil nunggu film diputar. Selalu ada aja gaya lucu kita berdua!"</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Theater Selfie</span>
+                  <button class="btn-view-large" data-img="assets/images/cinema_recliner_selfie.jpg" data-caption="Selfie berdua di kursi kulit bioskop premiere yang super cozy.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. SWEET: Kencan Makan McD (mcd_food_date.jpg) -->
+          <div class="flip-card gallery-item" data-category="sweet">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/mcd_food_date.jpg" alt="Kencan Makan McD" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-burger"></i> McD Food Date</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-utensils"></i></div>
+                  <h4>Makan Enak Berdua</h4>
+                  <p>"Ayam krispi gurih, nasi hangat, scrambled egg, dan McCafe float manis. Makan apapun selalu nikmat kalau sama kamu."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Comfort Food Date</span>
+                  <button class="btn-view-large" data-img="assets/images/mcd_food_date.jpg" data-caption="Makan McDonald's berdua dengan menu favorit kita.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10. HANGOUT: Colek Pipi & Kedip di Taman Malam (park_cheek_poke.jpg) -->
+          <div class="flip-card gallery-item" data-category="hangout">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/park_cheek_poke.jpg" alt="Colek Pipi Manis" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-hand-point-right"></i> Colek Pipi</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-face-grin-wink"></i></div>
+                  <h4>Kedipan Manis</h4>
+                  <p>"Jari telunjuk menempel di pipi sambil kedip nakal. Tingkah manjamu yang gak pernah gagal bikin gemas!"</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Night Park Date</span>
+                  <button class="btn-view-large" data-img="assets/images/park_cheek_poke.jpg" data-caption="Foto malam santai dengan pose colek pipi dan senyum ceria.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 11. HANGOUT: Pose Duckface Malam (night_duckface.jpg) -->
+          <div class="flip-card gallery-item" data-category="hangout">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/night_duckface.jpg" alt="Pose Duckface Malam" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-moon"></i> Night Breeze</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-star"></i></div>
+                  <h4>Bibir Manyun Lucu</h4>
+                  <p>"Kencan jalan malam dengan udara sejuk. Senyum lebar di wajahku dan ekspresi kiss manismu."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Night Stroll</span>
+                  <button class="btn-view-large" data-img="assets/images/night_duckface.jpg" data-caption="Selfie kencan malam berdua dengan pose bibir manis.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12. HANGOUT: Senyum Dekat Manis (close_smile.jpg) -->
+          <div class="flip-card gallery-item" data-category="hangout">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/close_smile.jpg" alt="Senyum Dekat Manis" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-heart"></i> Close Up</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-smile"></i></div>
+                  <h4>Paling Manis</h4>
+                  <p>"Wajah cantik alami dengan senyum tipis yang menenangkan. Selalu bikin rasa sayang ini bertambah setiap hari."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Sweet Glance</span>
+                  <button class="btn-view-large" data-img="assets/images/close_smile.jpg" data-caption="Foto close up manis berdua dengan senyum penuh kebahagiaan.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 13. HANGOUT: Cozy Indoor Smile (cozy_indoor_smile.jpg) -->
+          <div class="flip-card gallery-item" data-category="hangout">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/cozy_indoor_smile.jpg" alt="Cozy Indoor Smile" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-house"></i> Cozy Time</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-sun"></i></div>
+                  <h4>Kehangatan Bersama</h4>
+                  <p>"Hijab krem dan senyum manismu di ruangan santai. Bersamamu waktu terasa berjalan begitu cepat."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Cozy Day</span>
+                  <button class="btn-view-large" data-img="assets/images/cozy_indoor_smile.jpg" data-caption="Momen tenang dan hangat di dalam ruangan berdua.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 14. HANGOUT: Casual Look (casual_look.jpg) -->
+          <div class="flip-card gallery-item" data-category="hangout">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/casual_look.jpg" alt="Tatapan Santai Berdua" loading="lazy">
+                <div class="card-front-overlay">
+                  <span class="card-badge"><i class="fa-solid fa-glasses"></i> Casual Moments</span>
+                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-back-content">
+                  <div class="back-icon"><i class="fa-solid fa-face-smile"></i></div>
+                  <h4>Tatapan Teduh</h4>
+                  <p>"Momen candid kita yang santai dan apa adanya. Gak perlu banyak kata, kita berdua udah saling paham."</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Everyday Love</span>
+                  <button class="btn-view-large" data-img="assets/images/casual_look.jpg" data-caption="Momen santai sehari-hari yang penuh rasa syukur.">
+                    <i class="fa-solid fa-expand"></i> Perbesar Foto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 15. RAGUNAN: Selfie Berdua di Taman -->
           <div class="flip-card gallery-item" data-category="ragunan">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -486,7 +812,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 2: Cinema Bow -->
+          <!-- 16. CINEMA: Pita Pink Cantik (cinema_bow.jpg) -->
           <div class="flip-card gallery-item" data-category="cinema">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -500,8 +826,8 @@
                 <div class="flip-back-content">
                   <div class="back-icon"><i class="fa-solid fa-ticket"></i></div>
                   <h4>Pita Pink Cantik</h4>
-                  <p>"Selfie di bioskop sebelum film mulai. Gaya duck face manismu selalu bikin gemas!"</p>
-                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Cinema Premiere</span>
+                  <p>"Selfie di bioskop sebelum film mulai. Pita pink di hijabmu hari itu super manis!"</p>
+                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Cinema Date</span>
                   <button class="btn-view-large" data-img="assets/images/cinema_bow.jpg" data-caption="Selfie di bioskop sebelum film mulai dengan pita pink manis.">
                     <i class="fa-solid fa-expand"></i> Perbesar Foto
                   </button>
@@ -510,7 +836,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 3: Cozy Yellow -->
+          <!-- 17. HANGOUT: Dinding Kuning (cozy_yellow.jpg) -->
           <div class="flip-card gallery-item" data-category="hangout">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -534,7 +860,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 4: Ragunan Giraffe -->
+          <!-- 18. RAGUNAN: Jerapah Leher Panjang (ragunan_giraffe.jpg) -->
           <div class="flip-card gallery-item" data-category="ragunan">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -548,7 +874,7 @@
                 <div class="flip-back-content">
                   <div class="back-icon"><i class="fa-solid fa-seedling"></i></div>
                   <h4>Jerapah Kembar</h4>
-                  <p>"Dua jerapah yang kita foto bareng. Kamu sampai jinjit-jinjit saking penasarannya!"</p>
+                  <p>"Dua jerapah yang kita tonton bareng. Kamu sampai jinjit saking penasarannya!"</p>
                   <span class="back-date"><i class="fa-regular fa-calendar"></i> Ragunan Zoo</span>
                   <button class="btn-view-large" data-img="assets/images/ragunan_giraffe.jpg" data-caption="Momen melihat jerapah tinggi di bawah pepohonan Ragunan.">
                     <i class="fa-solid fa-expand"></i> Perbesar Foto
@@ -558,7 +884,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 5: Motorcycle Ride -->
+          <!-- 19. HANGOUT: Motoran Helm & Masker (motorcycle_ride.jpg) -->
           <div class="flip-card gallery-item" data-category="hangout">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -582,7 +908,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 6: Ragunan Potato -->
+          <!-- 20. RAGUNAN: Kentang Spiral Ulir (ragunan_potato.jpg) -->
           <div class="flip-card gallery-item" data-category="ragunan">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -596,7 +922,7 @@
                 <div class="flip-back-content">
                   <div class="back-icon"><i class="fa-solid fa-burger"></i></div>
                   <h4>Kentang Spiral Jumbo</h4>
-                  <p>"Camilan wajib kencan! Gigitan pertama garing, bumbu pedas manis, dan kita rebutan tusuknya."</p>
+                  <p>"Camilan wajib kencan! Gigitan pertama garing, bumbu gurih, dan kita makan gantian."</p>
                   <span class="back-date"><i class="fa-regular fa-calendar"></i> Ragunan Snack</span>
                   <button class="btn-view-large" data-img="assets/images/ragunan_potato.jpg" data-caption="Jajanan kentang spiral ulir yang gurih dan lezat di Ragunan.">
                     <i class="fa-solid fa-expand"></i> Perbesar Foto
@@ -606,7 +932,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 7: Cafe Date -->
+          <!-- 21. HANGOUT: Cafe Date (cafe_date.jpg) -->
           <div class="flip-card gallery-item" data-category="hangout">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -630,7 +956,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 8: Cinema Fun -->
+          <!-- 22. CINEMA: Peace Sign (cinema_fun.jpg) -->
           <div class="flip-card gallery-item" data-category="cinema">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -654,7 +980,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 9: Mall Denim -->
+          <!-- 23. HANGOUT: Mall Denim Jacket (mall_denim.jpg) -->
           <div class="flip-card gallery-item" data-category="hangout">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -678,7 +1004,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 10: Ragunan Fountain -->
+          <!-- 24. RAGUNAN: Air Mancur Primata (ragunan_fountain.jpg) -->
           <div class="flip-card gallery-item" data-category="ragunan">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -702,7 +1028,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 11: Elevator Selfie -->
+          <!-- 25. HANGOUT: Elevator Selfie (elevator_selfie.jpg) -->
           <div class="flip-card gallery-item" data-category="hangout">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -726,7 +1052,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 12: Station Date -->
+          <!-- 26. RAGUNAN: Halte & Stasiun (station_date.jpg) -->
           <div class="flip-card gallery-item" data-category="ragunan">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -750,55 +1076,7 @@
             </div>
           </div>
 
-          <!-- Photo Card 13: Cinema Red -->
-          <div class="flip-card gallery-item" data-category="cinema">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="assets/images/cinema_red.jpg" alt="Cinema Red Backdrop" loading="lazy">
-                <div class="card-front-overlay">
-                  <span class="card-badge"><i class="fa-solid fa-clapperboard"></i> Velvet Nights</span>
-                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
-                </div>
-              </div>
-              <div class="flip-card-back">
-                <div class="flip-back-content">
-                  <div class="back-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-                  <h4>Duduk Sebelahan</h4>
-                  <p>"Latar dinding merah bioskop. Tempat kita berbagi cerita dan nahan tawa pas nonton bareng."</p>
-                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Cinema Lounge</span>
-                  <button class="btn-view-large" data-img="assets/images/cinema_red.jpg" data-caption="Nonton bioskop berdua dengan latar merah yang hangat.">
-                    <i class="fa-solid fa-expand"></i> Perbesar Foto
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Photo Card 14: Cinema Dark -->
-          <div class="flip-card gallery-item" data-category="cinema">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="assets/images/cinema_dark.jpg" alt="Cinema Dark Vibe" loading="lazy">
-                <div class="card-front-overlay">
-                  <span class="card-badge"><i class="fa-solid fa-moon"></i> Midnight Movie</span>
-                  <p class="card-hint">Klik/Hover untuk membalik ↺</p>
-                </div>
-              </div>
-              <div class="flip-card-back">
-                <div class="flip-back-content">
-                  <div class="back-icon"><i class="fa-solid fa-sparkles"></i></div>
-                  <h4>Senyum dalam Gelap</h4>
-                  <p>"Lampu studio udah redup tapi kita masih sempatkan foto bareng. Binar matamu selalu kelihatan terang."</p>
-                  <span class="back-date"><i class="fa-regular fa-calendar"></i> Dark Theater</span>
-                  <button class="btn-view-large" data-img="assets/images/cinema_dark.jpg" data-caption="Foto manis di dalam studio bioskop yang temaram.">
-                    <i class="fa-solid fa-expand"></i> Perbesar Foto
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Photo Card 15: Ragunan Sign -->
+          <!-- 27. RAGUNAN: Papan Nama Kayu (ragunan_sign.jpg) -->
           <div class="flip-card gallery-item" data-category="ragunan">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -812,7 +1090,7 @@
                 <div class="flip-back-content">
                   <div class="back-icon"><i class="fa-solid fa-tree"></i></div>
                   <h4>Kenangan Abadi</h4>
-                  <p>"Tulisan kayu 'ragunan Zoo'. Bukti autentik kencan legendaris kita yang penuh tawa dan kebahagiaan."</p>
+                  <p>"Tulisan kayu 'ragunan Zoo'. Bukti kencan legendaris kita yang penuh tawa dan kebahagiaan."</p>
                   <span class="back-date"><i class="fa-regular fa-calendar"></i> Ragunan Landmark</span>
                   <button class="btn-view-large" data-img="assets/images/ragunan_sign.jpg" data-caption="Papan kayu ikonik Ragunan Zoo yang kita abadikan bersama.">
                     <i class="fa-solid fa-expand"></i> Perbesar Foto
@@ -868,14 +1146,14 @@
             <div class="reason-number">04</div>
             <div class="reason-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
             <h4>Tingkah Lucu & Menggemaskan</h4>
-            <p>Gaya duck face manismu, ekspresi konyol pas lagi manja, dan tawa lucumu saat kita kencan selalu bikin kangen.</p>
+            <p>Gaya duck face manismu, ekspresi konyol di photobooth bando My Melody, dan tawa lucumu saat kita kencan selalu bikin kangen.</p>
           </div>
 
           <div class="reason-card glass-card reveal-on-scroll">
             <div class="reason-number">05</div>
             <div class="reason-icon"><i class="fa-solid fa-motorcycle"></i></div>
             <h4>Teman Berpetualang Paling Seru</h4>
-            <p>Diajak motoran jauh oke, diajak jalan kaki keliling Ragunan hayu, diajak jajan pinggir jalan selalu senang tanpa mengeluh.</p>
+            <p>Diajak keliling museum seni oke, motoran jauh hayu, diajak jalan kaki keliling Ragunan selalu senang tanpa pernah mengeluh.</p>
           </div>
 
           <div class="reason-card glass-card reveal-on-scroll">
@@ -889,14 +1167,14 @@
             <div class="reason-number">07</div>
             <div class="reason-icon"><i class="fa-solid fa-ear-listen"></i></div>
             <h4>Pendengar Setia Segala Ceritaku</h4>
-            <p>Apapun yang terjadi, kamu selalu jadi orang pertama yang aku cari untuk berbagi cerita bahagia maupun sedih.</p>
+            <p>Apapun yang terjadi, kamu selalu jadi orang pertama yang aku cari untuk berbagi cerita bahagia maupun keluh kesah.</p>
           </div>
 
           <div class="reason-card glass-card reveal-on-scroll">
             <div class="reason-number">08</div>
             <div class="reason-icon"><i class="fa-solid fa-utensils"></i></div>
             <h4>Partner Kuliner Terbaik</h4>
-            <p>Makan kentang spiral di Ragunan, popcorn bioskop, sampai jajan malam pinggir jalan selalu terasa sepuluh kali lebih lezat bareng kamu.</p>
+            <p>Makan kentang spiral di Ragunan, santap McD berdua, sampai jajan malam pinggir jalan selalu terasa sepuluh kali lebih lezat bersamamu.</p>
           </div>
 
           <div class="reason-card glass-card reveal-on-scroll">
@@ -1034,13 +1312,13 @@
             <strong>Selamat tanggal 10 yang ke-10, bidadariku! 💖</strong>
           </p>
           <p>
-            Gak berasa ya, waktu berjalan begitu cepat. Rasanya baru kemarin kita malu-malu curi pandang dan canggung ngobrol, tapi sekarang kita sudah melangkah sejauh ini bersama selama <strong>10 bulan penuh kenangan</strong>.
+            Gak berasa ya, waktu berjalan begitu cepat. Rasanya baru kemarin kita malu-malu curi pandang dan canggung ngobrol, tapi sekarang kita sudah melangkah sejauh ini bersama selama <strong>10 bulan penuh kenangan terindah</strong>.
           </p>
           <p>
-            Mengingat kembali perjalanan kita selalu bikin aku tersenyum sendiri. Dari kencan pertama nonton bioskop sambil berbagi popcorn, motoran berdua menembus dinginnya malam kota, sampai petualangan seru kita ke <strong>Ragunan Zoo</strong>—jalan kaki keliling melihat jerapah yang tinggi, tertawa lepas di dekat air mancur, dan jajan kentang spiral legendaris yang manis karena dimakan bareng kamu.
+            Mengingat kembali perjalanan kita selalu bikin aku tersenyum sendiri. Dari <strong>kencan pertama kita keliling museum seni</strong> mengagumi setiap lukisan berdua, tawa lepas saat foto di photobooth bando My Melody, motoran malam menembus sejuknya angin kota, santap burger McD berdua, sampai petualangan seru kita ke <strong>Ragunan Zoo</strong>—jalan kaki keliling melihat jerapah tinggi, tertawa lepas di dekat air mancur, dan jajan kentang spiral legendaris yang manis karena dimakan bareng kamu.
           </p>
           <p>
-            Terima kasih banyak ya, sayang... Terima kasih sudah memilihku setiap hari, terima kasih sudah jadi rumah ternyaman tempatku pulang, dan terima kasih untuk kesabaran serta kasih sayangmu yang tulus. Kamu selalu berhasil membuat hari-hari biasa terasa seperti perayaan istimewa.
+            Terima kasih banyak ya, sayang... Terima kasih sudah memilihku setiap hari, terima kasih sudah jadi rumah ternyaman tempatku pulang, dan terima kasih untuk kesabaran serta kasih sayangmu yang begitu tulus. Kamu selalu berhasil membuat hari-hari biasa terasa seperti perayaan istimewa.
           </p>
           <p>
             Di bulan ke-10 ini, doaku tetap sama: semoga kita terus saling menjaga, saling mendukung mimpi satu sama lain, makin dewasa menghadapi segala hal, dan terus berjalan bergandengan tangan menuju bulan-bulan dan tahun-tahun berikutnya.
@@ -1117,19 +1395,6 @@
         <button class="btn-romantic btn-secondary" id="btn-reset-date">Reset Default</button>
         <button class="btn-romantic btn-primary" id="btn-save-date">Simpan Tanggal</button>
       </div>
-    </div>
-  </div>
-
-  <!-- Audio Autoplay Banner / Toast for Mobile Browsers -->
-  <div class="audio-prompt-toast" id="audio-prompt-toast">
-    <div class="toast-content">
-      <i class="fa-solid fa-music toast-icon"></i>
-      <div class="toast-text">
-        <strong>Nyalakan Musik Romantis?</strong>
-        <span>Klik untuk memutar lagu latar favorit kita 🎶</span>
-      </div>
-      <button class="btn-toast-play" id="btn-accept-music">Putar Musik</button>
-      <button class="btn-toast-dismiss" id="btn-dismiss-music"><i class="fa-solid fa-xmark"></i></button>
     </div>
   </div>
 
